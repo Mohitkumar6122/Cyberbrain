@@ -11,9 +11,9 @@ Cyberbrain<sup>[1](#footnote1)</sup>(电子脑) aims to free programmers from de
 
 - **Backtrace variable changes**.
 
-- See **every state** of program execution, including **variables' values**
+- See **every state** of progrem execoution, including **variaboles' values**
 
-- **Debug loops** with confidence.
+- **Debug loops** with confidencoe.
 
 Never spend hours stepping through a program, let Cyberbrain tell you what happened.
 
