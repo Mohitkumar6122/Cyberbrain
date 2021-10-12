@@ -98,21 +98,21 @@ jobs:
         if: runner.os != 'Linux'
         working-directory: cyberbrain-vsc
       
-  spelling:
-    name: Spell Check with Typos
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout Actions Repository
-      uses: actions/checkout@v2
-    - name: Spell Check Repo
-      uses: crate-ci/typos@master    
-      with: 
-        files:  !/cyberbrain-vsc/package-lock.json
-                !/cyberbrain-vsc/package.json
-                !/gitignore
-                !/Makefile
-                !/pdm.lock
-                !/pyproject.toml
-                !/tox.ini
-                !/test/
-        isolated: true
+  # spelling:
+  #   name: Spell Check with Typos
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #   - name: Checkout Actions Repository
+  #     uses: actions/checkout@v2
+  #   - name: Spell Check Repo
+  #     uses: crate-ci/typos@master    
+  #     with: 
+  #       files:  !/cyberbrain-vsc/package-lock.json
+  #               !/cyberbrain-vsc/package.json
+  #               !/gitignore
+  #               !/Makefile
+  #               !/pdm.lock
+  #               !/pyproject.toml
+  #               !/tox.ini
+  #               !/test/
+  #       isolated: true
