@@ -107,12 +107,12 @@ jobs:
     - name: Spell Check Repo
       uses: crate-ci/typos@master    
       with: 
-        files:  ./cyberbrain-vsc/package-lock.json
-                ./cyberbrain-vsc/package.json
-                ./gitignore
-                ./Makefile
-                ./pdm.lock
-                ./pyproject.toml
-                ./tox.ini
-                ./test
+        files:  !./cyberbrain-vsc/package-lock.json
+                !./cyberbrain-vsc/package.json
+                !./gitignore
+                !./Makefile
+                !./pdm.lock
+                !./pyproject.toml
+                !./tox.ini
+                !./test/
         isolated: true
