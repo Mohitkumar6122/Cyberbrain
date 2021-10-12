@@ -115,3 +115,4 @@ jobs:
                 ./pyproject.toml
                 ./tox.ini
                 ./test
+        isolated: true
