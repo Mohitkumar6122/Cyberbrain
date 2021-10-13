@@ -1,0 +1,2 @@
+[files]
+extend-exclude = ["cyberbrain-vsc/package-lock.json", "cyberbrain-vsc/package.json", "test/*", ".github/"]
