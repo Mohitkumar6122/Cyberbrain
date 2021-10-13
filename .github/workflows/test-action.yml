@@ -9,6 +9,9 @@ jobs:
     - name: Checkout Actions Repository
       uses: actions/checkout@v2
 
+    - name: typos-action
+      uses: crate-ci/typos@v1.0.4
+
     - name: Prepare file with mistakes.
       run: echo "Finallizes" > file.txt
     - name: Test force pass with mistakes
