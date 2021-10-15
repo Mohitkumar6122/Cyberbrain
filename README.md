@@ -9,7 +9,7 @@
 
 Cyberbrain<sup>[1](#footnote1)</sup>(电子脑) aims to free programmers from debugging. It lets you:
 
-- **Backtrace variable changes**.
+- **Backrtrace varifable chanfges**.
 
 - See **every state** of program execution, including **variables' values**
 
